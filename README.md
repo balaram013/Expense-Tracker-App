@@ -29,3 +29,58 @@ expense_tracker/
 ├── expenses.db # SQLite database file (created automatically)
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/expense-tracker.git
+cd expense-tracker
+
+
+Create a virtual environment:
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Note: Tkinter usually comes pre-installed with Python.
+
+Usage
+
+Run the app:
+
+python main.py
+
+
+Enter category, amount, and description to add a new expense.
+
+Select an expense in the table and click Delete Selected to remove it.
+
+The total expenses are shown at the bottom and update automatically.
+
+Screenshots
+
+(Optional: Add screenshots here)
+
+Tech Stack
+
+Python 3.x
+
+Tkinter – GUI framework
+
+SQLite – Local database
+
+License
+
+This project is licensed under the MIT License.
